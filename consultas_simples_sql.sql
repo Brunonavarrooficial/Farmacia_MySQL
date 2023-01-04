@@ -1,10 +1,10 @@
 # Realizando consultas simples
 
 -- Tipos Produtos
-SELECT * FROM tipos_produtos;
-SELECT id, tipo FROM tipos_produtos;
-SELECT tipo, id FROM tipos_produtos;
-SELECT id, tipo FROM tipos_produtos ORDER BY tipo DESC;
+SELECT * FROM tipos_produto;
+SELECT id, tipo FROM tipos_produto;
+SELECT tipo, id FROM tipos_produto;
+SELECT id, tipo FROM tipos_produto ORDER BY tipo DESC;
 
 -- Fabricantes
 SELECT * FROM fabricantes;
